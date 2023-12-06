@@ -1,8 +1,8 @@
-Airbnb Analysis
-Skills - Python scripting, Data Preprocessing, Visualization,EDA, Streamlit, MongoDb, PowerBI 
-Domain - Travel Industry, Property Management and Tourism 
+# Airbnb Analysis
+# Skills - Python scripting, Data Preprocessing, Visualization,EDA, Streamlit, MongoDb, PowerBI 
+# Domain - Travel Industry, Property Management and Tourism 
 
-Problem Statement:
+# Problem Statement:
 This project aims to analyze Airbnb data using MongoDB Atlas, perform data cleaning and preparation, develop interactive geospatial visualizations, and create dynamic plots to gain insights into pricing variations, availability patterns, and location-based trends. The objectives are to:
 Establish a MongoDB connection, retrieve the Airbnb dataset, and ensure efficient data retrieval for analysis.
 Clean and prepare the dataset, addressing missing values, duplicates, and data type conversions for accurate analysis.
@@ -13,14 +13,14 @@ Investigate location-based insights by extracting and visualizing data for speci
 Create interactive visualizations that enable users to filter and drill down into the data.
 Build a comprehensive dashboard using Tableau or Power BI, combining various visualizations to present key insights from the analysis.
 
-Data: MongoDb - Atlas
+# Data: MongoDb - Atlas
 
 Create a MongoDB Atlas Account: Sign up for a MongoDB Atlas account by visiting the MongoDB Atlas website and follow the registration process to set up your account and create a new project.
 Set Up a Cluster: Within your MongoDB Atlas project, set up a cluster. Choose the cloud provider and region for hosting your data, configure the cluster specifications, and create the cluster. This will serve as the database environment for storing the sample data.
 Load the Airbnb Sample Data: Once your cluster is set up, access the MongoDB Atlas dashboard. In the left-hand navigation menu, click on "Database Access" to create a database user with appropriate permissions for accessing and loading data. Then, select "Network Access" to set up IP whitelisting or configure other security measures.
 Import Sample Data: From the MongoDB Atlas dashboard, navigate to the "Clusters" page and click on your cluster. In the cluster view, select the "Collections" tab and click on the "Sample Data" button. Choose the "Load Sample Dataset" option, and MongoDB Atlas will import the Airbnb sample data into your cluster. The sample data typically includes collections for listings, reviews, and users.
 
-Example AIRBNB data structure:
+# Example AIRBNB data structure:
 	{"_id": "unique_listing_id",
  	 "name": "listing_title",
  	 "description": "listing_description",
@@ -47,7 +47,7 @@ Example AIRBNB data structure:
    			 }, ...
  			 ], ...
 }
-Approach: 
+# Approach: 
 1. MongoDB Connection and Data Retrieval: Establish a connection to the MongoDB Atlas database and retrieve the Airbnb dataset. Perform queries and data retrieval operations to extract the necessary information for your analysis.
 2. Data Cleaning and Preparation: Clean the Airbnb dataset by handling missing values, removing duplicates, and transforming data types as necessary. Prepare the dataset for EDA and visualization tasks, ensuring data integrity and consistency.
 3. Geospatial Visualization: Develop a streamlit web application that utilizes  the geospatial data from the Airbnb dataset to create interactive maps. Visualize the distribution of listings across different locations, allowing users to explore prices, ratings, and other relevant factors.
@@ -57,10 +57,10 @@ Approach:
 7. Interactive Visualizations: Develop dynamic and interactive visualizations that allow users to filter and drill down into the data based on their preferences. Enable users to interact with the visualizations to explore specific regions, property types, or time periods of interest.
 8. Dashboard Creation: Utilize Tableau or Power BI to create a comprehensive dashboard that presents key insights from your analysis. Combine different visualizations, such as maps, charts, and tables, to provide a holistic view of the Airbnb dataset and its patterns.
 
-Reference Documents:
+# Reference Documents:
 Topic: MongoDB, EDA, SQL, PANDAS - Skill Enhancement Session
 
-The learning outcomes of this project are: 
+# The learning outcomes of this project are: 
 1.MongoDB Atlas: Gain proficiency in working with MongoDB Atlas to store and retrieve the Airbnb dataset, developing skills in data management with a NoSQL database technology.
 2.Streamlit Web Application: Build a user-friendly web application using Streamlit, enhancing skills in web application development for interactive data exploration and visualization.
 3.Python Data Analysis: Utilize Python for data cleaning, analysis, and visualization tasks, developing expertise in Python libraries such as Pandas and NumPy for data manipulation.
