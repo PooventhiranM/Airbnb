@@ -28,25 +28,25 @@ Import Sample Data: From the MongoDB Atlas dashboard, navigate to the "Clusters"
  	 "host_name": "host_name",
  	 "neighbourhood": "neighbourhood_name",
  	 "location": {
-"type": "Point",
-   			 "coordinates": [longitude, latitude]
- 			 },
-  	"price": "listing_price",
- 	 "availability": {
-   			 "start_date": "YYYY-MM-DD",
-   			 "end_date": "YYYY-MM-DD"
-  },
-  	"amenities": ["amenity_1", "amenity_2", ...],
-  	"rating": "average_rating",
- 	 "reviews": [
-    			{
-     			 "reviewer_id": "unique_reviewer_id",
-      			"reviewer_name": "reviewer_name",
-      			"comment": "review_comment",
-     			 "rating": "review_rating"
-   			 }, ...
- 			 ], ...
-}
+	"type": "Point",
+	   			 "coordinates": [longitude, latitude]
+	 			 },
+	  	"price": "listing_price",
+	 	 "availability": {
+	   			 "start_date": "YYYY-MM-DD",
+	   			 "end_date": "YYYY-MM-DD"
+	  },
+	  	"amenities": ["amenity_1", "amenity_2", ...],
+	  	"rating": "average_rating",
+	 	 "reviews": [
+	    			{
+	     			 "reviewer_id": "unique_reviewer_id",
+	      			"reviewer_name": "reviewer_name",
+	      			"comment": "review_comment",
+	     			 "rating": "review_rating"
+	   			 }, ...
+	 			 ], ...
+	}
 # Approach: 
 1. MongoDB Connection and Data Retrieval: Establish a connection to the MongoDB Atlas database and retrieve the Airbnb dataset. Perform queries and data retrieval operations to extract the necessary information for your analysis.
 2. Data Cleaning and Preparation: Clean the Airbnb dataset by handling missing values, removing duplicates, and transforming data types as necessary. Prepare the dataset for EDA and visualization tasks, ensuring data integrity and consistency.
@@ -56,9 +56,6 @@ Import Sample Data: From the MongoDB Atlas dashboard, navigate to the "Clusters"
 6. Location-Based Insights: Investigate how the price of listings varies across different locations. Use MongoDB queries and data aggregation techniques to extract relevant information for specific regions or neighborhoods. Visualize these insights on interactive maps or create dashboards in tools like Tableau or Power BI.
 7. Interactive Visualizations: Develop dynamic and interactive visualizations that allow users to filter and drill down into the data based on their preferences. Enable users to interact with the visualizations to explore specific regions, property types, or time periods of interest.
 8. Dashboard Creation: Utilize Tableau or Power BI to create a comprehensive dashboard that presents key insights from your analysis. Combine different visualizations, such as maps, charts, and tables, to provide a holistic view of the Airbnb dataset and its patterns.
-
-# Reference Documents:
-Topic: MongoDB, EDA, SQL, PANDAS - Skill Enhancement Session
 
 # The learning outcomes of this project are: 
 1.MongoDB Atlas: Gain proficiency in working with MongoDB Atlas to store and retrieve the Airbnb dataset, developing skills in data management with a NoSQL database technology.
